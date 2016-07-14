@@ -68,8 +68,6 @@ lysine <- 144.102063 #Lysine modification (modification3)
   
 seq_matrix <- as.matrix(file[,1])
 
-#modification1 <- 'cystein'
-#modification2 <- 'lysine'
 sum_weight <- 0
 sum_charge <- 0
 for(i in 1:length(seq_matrix)){
@@ -202,5 +200,5 @@ t2<-Sys.time()
 t3<- t2-t1
 t3
 }
-#5.915355 hours
+
 
