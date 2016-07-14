@@ -99,5 +99,3 @@ selectMarkers_wTest <- function(matrixCombination,tol) {#parameters=22,20
  t3
   
 }
-#4.104143 hours
-#4.193821 hours-1 modification
