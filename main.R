@@ -1,4 +1,11 @@
-
+################################################################################################
+# Author: S.M. Vidanagamachchi
+# Function: main()
+#           Run several functions to find biomarker discovery of labeled (iTRAQ/TMT) experiments
+#
+# Output:
+#         A set of proteins as biomarkers
+##############################################################################################
 source("trypsinDigestion.R")
 source("massToCharge.R")
 source("Quantification.R")
