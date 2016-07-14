@@ -50,5 +50,3 @@ searching <- function(dir,experimentNo,tol){
   t3<-t2-t1
   t3
 }
-#1.630466 hours(chaththa machine)-bpca
-#1.518879 hours-knn
