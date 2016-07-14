@@ -62,5 +62,3 @@ t3<-t2-t1
 t3
 
 }
-# 19.93022 mins
-#20.2875 mins-1 modification
