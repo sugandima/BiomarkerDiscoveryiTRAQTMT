@@ -76,5 +76,3 @@ Quantification <- function(pathFiles) {
   t3<-t2-t1
   t3
 }
-#2.364771 hours(chaththa machine)-bpca
-# 2.20239 hours-knn
