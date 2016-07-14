@@ -1,7 +1,6 @@
 
 source("trypsinDigestion.R")
 source("massToCharge.R")
-
 source("Quantification.R")
 source("searching.R")
 source("proteinIdentification_ratios.R")
@@ -9,9 +8,8 @@ source("proteinIdentificationSeperateRuns.R")
 source("selectMarkers_wTest.R")
 
 trypsinDigestion("RefSeqsequence.fasta")
-#massToCharge(2.7,"cystein","lysine")#2 static modifications
-massToCharge(2.7,"","lysine")
-
+massToCharge(2.7,"cystein","lysine")# 2 static modifications
+#massToCharge(2.7,"","lysine")# 1 static modification
 Quantification("data")
 searching("out",22,20)#identify peptides and reports peptide ratios
 proteinIdentification_ratios(22,20)#identify unique proteins from all fractions and reports 3 different protein ratios (for comparison)
