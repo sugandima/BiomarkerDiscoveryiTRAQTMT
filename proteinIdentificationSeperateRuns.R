@@ -42,6 +42,7 @@ for(j in 1:(dim(m1)[1])){
     if (m1[j,1]==matrix_pepProteinList[i,2]){
       peptideProteinIntensity114[j]<- as.numeric(peptideProteinIntensity114[j])+as.numeric(matrix_pepProteinList[i,7])
       peptideProteinIntensity115[j]<- as.numeric(peptideProteinIntensity115[j])+as.numeric(matrix_pepProteinList[i,8])
+      break;#exit (edit-30/07/2017)
     }    
   }
   peptideFinal114 <- as.numeric(peptideProteinIntensity114[j])
